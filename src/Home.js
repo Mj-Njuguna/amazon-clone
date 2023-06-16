@@ -10,7 +10,6 @@ function Home() {
         <div className='home__row'></div> 
         <div className='home__row'></div> 
         <div className='home__row'></div> 
-        <div className='home__row'></div> 
     </div>
   )
 }
