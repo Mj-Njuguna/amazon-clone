@@ -5,13 +5,16 @@ import Home from './Home'
 function App() {
   return (
     //BEM naming convention
+    
     <div className="app">
-            {/*Header*/}
-            <Header/>
-            {/*Home*/}
-            <Home/>
 
+        
+        <Header/>
+        <Home/>
+        
+      
     </div>
+    
   );
 }
 
