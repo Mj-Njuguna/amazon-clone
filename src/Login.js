@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Login.css'
 import {Link, useNavigate} from 'react-router-dom'
-
+import MyImage from './img/final_logo.png';
 import {auth} from "./firebase";
 function Login() {
     const history = useNavigate();
@@ -36,7 +36,7 @@ function Login() {
   return (
     <div className='login'>
       <Link to ='/'>   
-      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png" alt="" className='login__logo'/>
+      <img src={MyImage} alt="" className='login__logo'/>
       </Link>
 
       <div className="login__container">
